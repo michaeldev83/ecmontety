@@ -26,8 +26,9 @@ export default {
 
 .header-top{
   position: fixed;
-  top:0; left:0; right:0;
+  top:0;
   max-width:900px;
+  margin: 0 auto;
   height:90px;
   z-index:2;
 }
