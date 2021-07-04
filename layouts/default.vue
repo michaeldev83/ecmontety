@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <header-top />
-    <nav-top :titreMenu="titre" />
+    <nav-top />
     <Nuxt />
     <footer-bottom />
   </div>
@@ -13,11 +13,6 @@ import Nav from '@/components/Nav.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
-  data() {
-    return {
-      titre: 'Accueil et Actualités'
-    }
-  },
   components: {
     'nav-top': Nav,
     'header-top': Header,
@@ -50,10 +45,15 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+  padding:0;
+}
+body{
+  margin: 0 auto;
+  max-width: 900px;
 }
 .container{
   position: relative;
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
 }
 .block{
@@ -61,6 +61,6 @@ html {
 }
 p img{
   max-width: 100%;
-  height: auto;  
+  height: auto;
 }
 </style>
