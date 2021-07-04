@@ -15,7 +15,7 @@ export default {
   data () {
     return {
       titreMenu: 'Accueil et Actualités',
-      page: 'Gallery'
+      page: 'Gallerie'
     }
   }
 }
