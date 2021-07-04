@@ -1,8 +1,8 @@
 ---
 title: 'Stage'
-createAt: '12/04/2021'
+date: '12/04/2021'
 id: 1
-slug: 'test'
+slug: 'stage'
 img: images_blog/fond.jpeg
 alt: mon image
 ---

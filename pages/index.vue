@@ -5,9 +5,8 @@
         <img :src="article.img" :alt="article.alt">
       </div>
       <h2>{{ article.title }}</h2>
-      <span>{{ article.createAt }}</span>
+      <span>{{ article.date }}</span>
       <nuxt-content :document="article" />
-      <hr>
     </article>
   </div>
 </template>
@@ -31,7 +30,10 @@ article{
     top:140px;
     width:100%;
     overflow: hidden;
-    padding:10px;
+    padding:10px 10px 30px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 article h2{
     padding: 10px 0 0 0;
@@ -39,7 +41,7 @@ article h2{
 article .image{
     text-align: center;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 10px auto;
     box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
     border-radius:7px;
     padding:5px 5px 0;
