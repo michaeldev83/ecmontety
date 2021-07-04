@@ -24,7 +24,7 @@ export default {
 <style scoped>
 nav{
   position:fixed;
-  top:90px;
+  top:90px; left:0; right:0;
   width:100%;
   max-width:900px;
   height:40px;

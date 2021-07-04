@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <article v-for="article in articles" :key="article.id">
       <div class="image">
         <img :src="article.img" :alt="article.alt">
@@ -25,6 +25,9 @@ export default {
 </script>
 
 <style>
+.main{
+  padding: 0 5px;
+}
 article{
     position:relative;
     top:140px;
