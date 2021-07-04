@@ -1,18 +1,18 @@
 <template>
   <footer>
     <div class="contact">
-      <h3>Nous contacter</h3>
+      <h3>Contacter nos entraineurs {{ niveau }}</h3>
       <ul>
         <hr>
-        <li>Dominique (Papi) - 06 00 34 34 12</li>
+        <li>Dominique (Papi) - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
         <hr>
-        <li>Stéphane - 06 00 34 34 12</li>
+        <li>Stéphane - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
         <hr>
-        <li>Enis - 06 00 34 34 12</li>
+        <li>Enis - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
         <hr>
-        <li>David - 06 00 34 34 12</li>
+        <li>David - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
         <hr>
-        <li>Fabien - 06 00 34 34 12</li>
+        <li>Fabien - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
         <hr>
       </ul>
     </div>
@@ -22,7 +22,8 @@
 
 <script>
 export default {
-  name: 'footer-bottom'
+  name: 'footer-bottom',
+  props: ['niveau']
 }
 </script>
 
@@ -34,21 +35,29 @@ footer {
   color: #f1f1f1;
   padding: 10px;
 }
-span{
+footer span{
     font-size:14px;
     display: block;
     text-align: center;
     padding: 20px 0;
 }
+.contact a{
+  text-decoration: none;
+  color:#f1f1f1;
+  border-bottom: 1px solid #fff;
+}
 .contact hr{
   border:none;
   background-color: #777;
-  height:1px;
-  margin: 0 auto;
-  width: 100%;
 }
-h3{
-  padding-bottom: 10px;
+.contact h3{
+  padding: 10px 10px 20px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+.contact ul{
+  padding:10px 0;
+  border-bottom: 1px solid #fff;
 }
 .contact li{
   padding: 7px 10px;

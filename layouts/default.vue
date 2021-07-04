@@ -1,9 +1,11 @@
 <template>
   <div class="container">
-    <header-top />
+    <keep-alive>
+      <header-top :niveau="niveau" />
+    </keep-alive>
     <nav-top />
     <Nuxt />
-    <footer-bottom />
+    <footer-bottom :niveau="niveau"/>
   </div>
 </template>
 
@@ -13,6 +15,11 @@ import Nav from '@/components/Nav.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
+  data () {
+    return {
+      niveau: 'U8'
+    }
+  },
   components: {
     'nav-top': Nav,
     'header-top': Header,

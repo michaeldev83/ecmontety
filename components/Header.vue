@@ -5,7 +5,7 @@
       <div class="club">
         <ul>
           <li>Etoile Claret Montety</li>
-          <li>U8</li>
+          <li>{{ niveau }}</li>
         </ul>
       </div>
     </div>
@@ -17,7 +17,8 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  props: ['niveau']
 }
 </script>
 
