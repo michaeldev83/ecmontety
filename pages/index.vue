@@ -38,6 +38,8 @@ article h2{
 }
 article .image{
     text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
     box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
     border-radius:7px;
     padding:5px 5px 0;
@@ -48,16 +50,19 @@ article .image img{
     border-radius:7px;
     background-size: cover;
 }
-span{
+article span{
     font-size:12px;
     color:#333;
 }
-hr{
+article hr{
     border: none;
     background-color: #dadada;
     height:1px;
     width: 50%;
     margin: 20px auto;
+}
+article ul{
+  padding-left: 30px;
 }
 /* Document Markdown */
 .nuxt-content{
