@@ -1,6 +1,6 @@
 <template>
   <div class="header-top">
-    <div>
+    <div class="image">
       <img src="../assets/fond.jpeg" alt="ballon">
       <div class="club">
         <ul>
@@ -27,14 +27,15 @@ export default {
 .header-top{
   position: fixed;
   top:0;
+  width: 100%;
   max-width:900px;
   margin: 0 auto;
   height:90px;
   z-index:2;
 }
-img{
-  width:100%;
-  height:90px;
+.image img{
+  width: 100%;
+  height: 90px;
 }
 .club{
   position: absolute;
