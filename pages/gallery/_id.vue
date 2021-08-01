@@ -1,11 +1,11 @@
 <template>
   <div class="imageGallery">
     <nuxt-link to="/gallery">
-      Retour {{ photo.id }}
+      Retour
     </nuxt-link>
-    <!-- <div class="lightbox">
-      <img :src="photoUrl(photo.filename)">
-    </div> -->
+    <div class="lightbox">
+      <img :src="photoUrl(galerie.filename)">
+    </div>
   </div>
 </template>
 
@@ -15,18 +15,25 @@ import photos from '@/photos.json'
 export default {
   data () {
     return {
-      photos
+      photos,
+      galerie: ''
     }
   },
-  mounted () {
+  created () {
     this.photo()
   },
-  computed: {
+  methods: {
     photo () {
       for (const key in this.photos) {
-        this.photos[key].find((photo) => {
-          return photo.id === Number(this.$route.params.id)
-        })
+        for (let i = 0; i < this.photos[key].length; i++) {
+          if (this.photos[key][i].id === Number(this.$route.params.id)) {
+            this.galerie = {
+              id: this.photos[key][i].id,
+              filename: this.photos[key][i].filename,
+              tag: this.photos[key][i].tag
+            }
+          }
+        }
       }
     },
     photoUrl (filename) {

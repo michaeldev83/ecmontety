@@ -4,6 +4,8 @@
       <nuxt-link to="/"><h2>{{ titreMenu }}</h2></nuxt-link>
       <span>|</span>
       <nuxt-link to="/gallery"><h2>{{ page }}</h2></nuxt-link>
+      <span>|</span>
+      <nuxt-link to=""><h2>{{ info }}</h2></nuxt-link>
     </div>
   </nav>
 </template>
@@ -15,7 +17,8 @@ export default {
   data () {
     return {
       titreMenu: 'Accueil et Actualités',
-      page: 'Gallerie'
+      page: 'Gallerie',
+      info: 'Infos parents'
     }
   }
 }
