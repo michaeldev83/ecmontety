@@ -1,9 +1,22 @@
 <template>
-  <div class="gallery">
-    <div v-for="photo in photos" :key="photo.id" class="gallery-panel">
-      <router-link :to="`/gallery/${photo.id}`">
-        <img :src="thumbUrl(photo.filename)">
-      </router-link>
+  <div class="main">
+    <h2>2021</h2>
+    <div class="gallery">
+      <div v-for="photo in photos.annee2021" :key="photo.id" class="gallery-panel">
+        <router-link v-if="photo.tag === 2021" :to="{path: `/gallery/${photo.id}`, query: {an: photo.tag} }">
+          <img :src="thumbUrl(photo.filename)">
+        </router-link>
+      </div>
+    </div>
+    <h2>Avant</h2>
+    <div class="gallery">
+      <div v-for="photo in photos.annee2020" :key="photo.id" class="gallery-panel">
+        <div v-if="photo.tag === 2020">
+          <router-link :to="`/gallery/${photo.id}`">
+            <img :src="thumbUrl(photo.filename)">
+          </router-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -27,18 +40,21 @@ export default {
 </script>
 
 <style>
-.gallery {
+.main{
   position:relative;
   top:140px;
   width:100%;
   overflow: hidden;
+  padding: 10px;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   justify-content: center;
+  align-items: center;
   grid-gap: 10px;
-  max-width: 80rem;
-  margin: 0 auto;
-  padding: 10px;
 }
 .gallery-panel img {
   width: 100%;

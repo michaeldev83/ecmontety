@@ -1,18 +1,27 @@
-[
+
   {
-    "id": 3,
-    "filename": "img04"
-  },
-  {
-    "id": 2,
-    "filename": "img03"
-  },
-  {
-    "id": 1,
-    "filename": "img02"
-  },
-  {
-    "id": 0,
-    "filename": "img01"
+    "annee2021" : [
+      {
+        "id": 3,
+        "filename": "img04",
+        "tag": 2021
+      }
+    ],
+    "annee2020" : [
+      {
+        "id": 2,
+        "filename": "img03",
+        "tag": 2020
+      },
+      {
+        "id": 1,
+        "filename": "img02",
+        "tag": 2020
+      },
+      {
+        "id": 0,
+        "filename": "img01",
+        "tag": 2020
+      }
+    ]
   }
-]
