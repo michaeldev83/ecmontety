@@ -8,7 +8,7 @@
         </router-link>
       </div>
     </div>
-    <h2>Avant</h2>
+    <h2>Années précédentes</h2>
     <div class="gallery">
       <div v-for="photo in photos.annee2020" :key="photo.id" class="gallery-panel">
         <div v-if="photo.tag === 2020">
