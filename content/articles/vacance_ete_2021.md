@@ -9,4 +9,4 @@ alt: vacances d'été
 
 On se retrouve bientôt sur le terrrain !!
 
-Bonne Vacances à tous !!!
+Bonnes Vacances à tous !!!

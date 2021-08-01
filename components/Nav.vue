@@ -16,7 +16,7 @@ export default {
   name: 'Nav',
   data () {
     return {
-      titreMenu: 'Accueil et Actualités',
+      titreMenu: 'Actualités',
       page: 'Gallerie',
       info: 'Infos parents'
     }
@@ -45,8 +45,9 @@ nav .navBar{
 nav h2, nav span{
   font-size:14px;
   font-weight: normal;
-  padding: 0 10px;
+  padding: 0 5px;
   color: #f1f1f1;
+  text-align: center;
 }
 nav a{
   text-decoration: none;
