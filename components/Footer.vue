@@ -4,15 +4,15 @@
       <h3>Contacter nos entraineurs {{ niveau }}</h3>
       <ul>
         <hr>
-        <li>Dominique (Papi) - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
+        <li>Dominique (Papi) - <a href="tel:0651175205">06 51 17 52 05</a></li>
         <hr>
-        <li>Stéphane - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
+        <li>Stéphane - <a href="tel:06">06</a></li>
         <hr>
-        <li>Enis - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
+        <li>Enis - <a href="tel:0661671564">06 61 67 15 64</a></li>
         <hr>
-        <li>David - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
+        <li>David - <a href="tel:0675906522">06 75 90 65 22</a></li>
         <hr>
-        <li>Fabien - <a href="tel:06 00 34 34 12">06 00 34 34 12</a></li>
+        <li>Fabien - <a href="tel:06">06</a></li>
         <hr>
       </ul>
     </div>
