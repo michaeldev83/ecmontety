@@ -3,17 +3,11 @@
     <div class="contact">
       <h3>Contacter nos entraineurs {{ niveau }}</h3>
       <ul>
-        <hr><hr/>
         <li>Dominique (Papi) - <a href="tel:0651175205">06 51 17 52 05</a></li>
-        <hr>
         <li>Stéphane - <a href="tel:06">06</a></li>
-        <hr>
         <li>Enis - <a href="tel:0661671564">06 61 67 15 64</a></li>
-        <hr>
         <li>David - <a href="tel:0675906522">06 75 90 65 22</a></li>
-        <hr>
         <li>Fabien - <a href="tel:06">06</a></li>
-        <hr><hr/>
       </ul>
     </div>
     <span>© Etoile Claret Montety | créer par Michael B</span>
@@ -48,10 +42,6 @@ footer span{
   text-decoration: none;
   color:#f1f1f1;
   border-bottom: 1px solid #fff;
-}
-.contact hr{
-  border:none;
-  background-color: #777;
 }
 .contact h3{
   padding: 10px 10px 20px;
