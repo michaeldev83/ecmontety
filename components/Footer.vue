@@ -3,7 +3,7 @@
     <div class="contact">
       <h3>Contacter nos entraineurs {{ niveau }}</h3>
       <ul>
-        <hr>
+        <hr><hr/>
         <li>Dominique (Papi) - <a href="tel:0651175205">06 51 17 52 05</a></li>
         <hr>
         <li>Stéphane - <a href="tel:06">06</a></li>
@@ -13,7 +13,7 @@
         <li>David - <a href="tel:0675906522">06 75 90 65 22</a></li>
         <hr>
         <li>Fabien - <a href="tel:06">06</a></li>
-        <hr>
+        <hr><hr/>
       </ul>
     </div>
     <span>© Etoile Claret Montety | créer par Michael B</span>
