@@ -8,6 +8,6 @@ Allez c'est reparti pour une nouvelle année. Nous espérons que tout le monde a
 
 Les horaires pour les entrainements sont : 
  - Le mercredi de 10h à 11h45
- - le vendredi de 17h45 à 18h15
+ - le vendredi de 17h15 à 18h15
 
  A bientôt sur le terrain.
