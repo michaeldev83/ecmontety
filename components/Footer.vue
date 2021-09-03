@@ -4,10 +4,10 @@
       <h3>Contacter nos entraineurs {{ niveau }}</h3>
       <ul>
         <li>Dominique (Papi) - <a href="tel:0651175205">06 51 17 52 05</a></li>
-        <li>Stéphane - <a href="tel:06">06</a></li>
+        <li>Stéphane - <a href="tel:0622389181">06 22 38 91 81</a></li>
         <li>Enis - <a href="tel:0661671564">06 61 67 15 64</a></li>
         <li>David - <a href="tel:0675906522">06 75 90 65 22</a></li>
-        <li>Fabien - <a href="tel:06">06</a></li>
+        <li>Fabien - <a href="tel:0646170478">06 46 17 04 78</a></li>
       </ul>
     </div>
     <span>© Etoile Claret Montety | créer par Michael B</span>

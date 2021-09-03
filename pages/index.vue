@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <article v-for="article in articles" :key="article.id">
-      <div class="image">
+      <div v-if="article.img !== undefined" class="image">
         <img :src="article.img" :alt="article.alt">
       </div>
       <h2>{{ article.title }}</h2>

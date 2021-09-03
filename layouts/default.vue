@@ -5,7 +5,7 @@
     </keep-alive>
     <nav-top />
     <Nuxt />
-    <footer-bottom :niveau="niveau"/>
+    <footer-bottom :niveau="niveau" />
   </div>
 </template>
 
@@ -15,15 +15,15 @@ import Nav from '@/components/Nav.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
-  data () {
-    return {
-      niveau: 'U8'
-    }
-  },
   components: {
     'nav-top': Nav,
     'header-top': Header,
     'footer-bottom': Footer
+  },
+  data () {
+    return {
+      niveau: 'U9'
+    }
   }
 }
 </script>
