@@ -7,7 +7,7 @@ slug: 'Convocation plateau'
 # Convocation U9
 Rendez-vous le 18 Septembre 2021 au stade <b>Delaune</b> 83200 Toulon à 8h45.
 
-Horaire du plateau : de 9H00 à 12H00.
+Horaires du plateau : de 9H00 à 12H00.
 
 <b>Pensez à confirmer ou annuler votre venue à un des dirigeants/entraîneurs : Merci</b>
  - PAPI FOOT	Tel :	<a href="tel:0651175205">06 51 17 52 05</a>

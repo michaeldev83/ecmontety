@@ -21,7 +21,7 @@ export default {
   data () {
     return {
       titreMenu: 'Actualités',
-      page: 'Gallerie',
+      page: 'Galerie',
       info: 'Infos parents'
     }
   }
