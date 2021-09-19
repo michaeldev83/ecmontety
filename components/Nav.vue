@@ -8,8 +8,10 @@
       <nuxt-link to="/gallery">
         <h2>{{ page }}</h2>
       </nuxt-link>
-      <!-- <span>|</span>
-      <nuxt-link to=""><h2>{{ info }}</h2></nuxt-link> -->
+      <span>|</span>
+      <nuxt-link to="/newsletters">
+        <h2>{{ page1 }}</h2>
+      </nuxt-link>
     </div>
   </nav>
 </template>
@@ -22,6 +24,7 @@ export default {
     return {
       titreMenu: 'Actualités',
       page: 'Galerie',
+      page1: 'Newsletter',
       info: 'Infos parents'
     }
   }
