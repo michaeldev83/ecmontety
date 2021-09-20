@@ -89,7 +89,7 @@
 
     <p class="note">
       <span><b>Note Importante:</b></span> <br><br>
-      La newsletter ne servira qu'à envoyer des emails concernant les actualités du site et les convocations, <b>en aucun cas vous recevrez des emails à des fins commerciales</b>. <br><br>
+      La newsletter ne servira qu'à envoyer des emails concernants les actualités du site et les convocations, <b>en aucun cas vous ne recevrez des emails à des fins commerciales</b>. <br><br>
       Pensez à regarder vos <b>courriers indésirables</b> pour certaines boites emails.
     </p>
   </div>
