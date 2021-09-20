@@ -28,7 +28,7 @@
               </div>
             </div>
             <div class="indicates-required">
-              <span class="asterisk">*</span> indicates required
+              <span class="asterisk">*</span> champs requis
             </div>
             <div class="mc-field-group">
               <label for="mce-EMAIL">
