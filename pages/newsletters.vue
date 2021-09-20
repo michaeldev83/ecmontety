@@ -130,6 +130,7 @@ b:nth-child(1) {
   font:16px Helvetica,Arial,sans-serif;
 }
 .btn {
+  -webkit-appearance: none;
   border: none!important;
   transition: all 0.23s ease-in-out 0s;
   color: #FFFFFF;
