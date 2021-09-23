@@ -7,7 +7,7 @@ slug: 'newsletter'
 
 Bonjour à tous,
 
-la section newsletter en en place allez vite vous [inscrire](/newsletters) .
+la section newsletter est en place allez vite vous [inscrire](/newsletters) .
 
 Elle vous permettra d'être averti dès qu'il y a du nouveau sur le site et ne vous inquietez pas vous ne recevrez jamais autre chose.
 
