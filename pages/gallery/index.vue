@@ -1,18 +1,24 @@
 <template>
   <div class="mainGallery">
     <h2>2021</h2>
-    <div class="gallery">
-      <div v-for="photo in photos.annee2021" :key="photo.id" class="gallery-panel">
-        <router-link v-if="photo.tag === 2021" :to="{path: `/gallery/${photo.id}`}">
-          <img :src="thumbUrl(photo.filename)">
-        </router-link>
+    <div>
+      <div v-for="(dossier, index) in photos.annee2021" :key="index">
+        <h3>{{ dossier.name }}</h3>
+        <div class="gallery">
+          <div v-for="photo in dossier.photos" :key="photo.id" class="gallery-panel">
+            <router-link :to="{path: `/gallery/${photo.id}`}">
+              <img :src="thumbUrl(photo.filename)">
+            </router-link>
+          </div>
+        </div>
+        <hr>
       </div>
     </div>
     <h2>Années précédentes</h2>
-    <div class="gallery">
-      <div v-for="photo in photos.annee2020" :key="photo.id" class="gallery-panel">
-        <div v-if="photo.tag === 2020">
-          <router-link :to="`/gallery/${photo.id}`">
+    <div v-for="(dossier, index) in photos.annee2020" :key="index">
+      <div class="gallery">
+        <div v-for="photo in dossier.photos" :key="photo.id" class="gallery-panel">
+          <router-link :to="{path: `/gallery/${photo.id}`}">
             <img :src="thumbUrl(photo.filename)">
           </router-link>
         </div>
@@ -49,9 +55,16 @@ export default {
   max-width: 80rem;
   margin: 0 auto;
 }
-.mainGallery h2{
+.mainGallery h2, .mainGallery h3{
   text-align: center;
   padding: 10px 20px 20px;
+}
+.mainGallery hr {
+width: 50%;
+border: none;
+height:1px;
+background-color: #dadada;
+margin: 15px auto;
 }
 .gallery {
   display: grid;

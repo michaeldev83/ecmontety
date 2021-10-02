@@ -26,11 +26,13 @@ export default {
     photo () {
       for (const key in this.photos) {
         for (let i = 0; i < this.photos[key].length; i++) {
-          if (this.photos[key][i].id === Number(this.$route.params.id)) {
-            this.galerie = {
-              id: this.photos[key][i].id,
-              filename: this.photos[key][i].filename,
-              tag: this.photos[key][i].tag
+          for (let p = 0; p < this.photos[key][i].photos.length; p++) {
+            if (this.photos[key][i].photos[p].id === Number(this.$route.params.id)) {
+              this.galerie = {
+                id: this.photos[key][i].photos[p].id,
+                filename: this.photos[key][i].photos[p].filename,
+                tag: this.photos[key][i].photos[p].tag
+              }
             }
           }
         }
