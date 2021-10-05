@@ -4,7 +4,7 @@
       Retour
     </nuxt-link>
     <div class="lightbox">
-      <img :src="photoUrl(galerie.filename)">
+      <nuxt-img :src="`/images/${galerie.filename}.jpg`" />
     </div>
   </div>
 </template>
@@ -37,9 +37,6 @@ export default {
           }
         }
       }
-    },
-    photoUrl (filename) {
-      return require(`../../assets/images/${filename}.jpg`)
     }
   }
 }
