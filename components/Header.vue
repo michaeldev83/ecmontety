@@ -1,7 +1,7 @@
 <template>
   <div class="header-top">
     <div class="image">
-      <img src="../assets/fond.jpeg" alt="ballon">
+      <nuxt-img src="/imagesHeader/fond.png" alt="ballon" format="webp" sizes="sm:100vw md:50vw lg:400px" />
       <div class="club">
         <ul>
           <li>Etoile Claret Montety</li>
@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="logo">
-      <img src="../assets/ecmLogo2.png" alt="logo">
+      <nuxt-img src="/imagesHeader/ecmLogo2.png" alt="logo" format="webp" sizes="sm:100vw md:50vw lg:400px" />
     </div>
   </div>
 </template>
