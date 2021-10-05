@@ -11,7 +11,7 @@ Une image a été ajoutée dans la galerie.
 
 <nuxt-link to="/gallery">
 
-![image](images_blog/img09.jpg)
+<nuxt-img src="/images_blog/img09.jpg" format="webp" sizes="sm:100vw md:50vw lg:400px" />
 
 </nuxt-link>
 

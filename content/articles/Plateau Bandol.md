@@ -11,7 +11,7 @@ De nouvelles images ont été ajoutées dans la galerie.
 
 <nuxt-link to="/gallery">
 
-![image](images_blog/bandol.png)
+<nuxt-img src="/images_blog/bandol.png" format="webp" sizes="sm:100vw md:50vw lg:400px" />
 
 </nuxt-link>
 
