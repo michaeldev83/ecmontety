@@ -7,7 +7,7 @@
         <div class="gallery">
           <div v-for="photo in dossier.photos" :key="photo.id" class="gallery-panel">
             <router-link :to="{path: `/gallery/${photo.id}`}">
-              <img :src="thumbUrl(photo.filename)">
+              <nuxt-img :src="`/images/${photo.filename}.jpg`" format="webp" />
             </router-link>
           </div>
         </div>
@@ -19,7 +19,7 @@
       <div class="gallery">
         <div v-for="photo in dossier.photos" :key="photo.id" class="gallery-panel">
           <router-link :to="{path: `/gallery/${photo.id}`}">
-            <img :src="thumbUrl(photo.filename)">
+            <nuxt-img :src="`/images/${photo.filename}.jpg`" format="webp" />
           </router-link>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     thumbUrl (filename) {
-      return require(`@/assets/thumbnails/${filename}.jpg`)
+      return require(`@/assets/images/${filename}.jpg`)
     }
   }
 }
