@@ -127,7 +127,8 @@ b:nth-child(1) {
 #mc_embed_signup {
   background:#fff;
   clear:left;
-  font:16px Helvetica,Arial,sans-serif;
+  font-size:16px;
+  font-family: Helvetica,Arial,sans-serif;
 }
 .btn {
   -webkit-appearance: none;

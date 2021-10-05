@@ -7,7 +7,7 @@ export default {
     title: 'ecm',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Blog du club de foot junior Etoile Claret Montety.' }
     ],
     link: [
