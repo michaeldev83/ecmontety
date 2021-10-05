@@ -36,11 +36,6 @@ export default {
     return {
       photos
     }
-  },
-  methods: {
-    thumbUrl (filename) {
-      return require(`@/assets/images/${filename}.jpg`)
-    }
   }
 }
 </script>
