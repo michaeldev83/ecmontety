@@ -11,7 +11,7 @@ Une image a été ajoutée dans la galerie.
 
 <nuxt-link to="/gallery">
 
-<nuxt-img src="/images_blog/img09.jpg" format="webp" sizes="sm:100vw md:50vw lg:400px" />
+<nuxt-img src="/images_blog/img09.jpg" format="webp" sizes="sm:290px lg:400px" alt="equipe de foot à mar vivo" />
 
 </nuxt-link>
 
