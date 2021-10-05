@@ -7,7 +7,7 @@
         <div class="gallery">
           <div v-for="photo in dossier.photos" :key="photo.id" class="gallery-panel">
             <router-link :to="{path: `/gallery/${photo.id}`}">
-              <nuxt-img :src="`/images/${photo.filename}.jpg`" format="webp" />
+              <nuxt-img :src="`/images/${photo.filename}.jpg`" format="webp" sizes="sm:100vw md:50vw lg:400px" alt="photo joueurs" />
             </router-link>
           </div>
         </div>
@@ -19,7 +19,7 @@
       <div class="gallery">
         <div v-for="photo in dossier.photos" :key="photo.id" class="gallery-panel">
           <router-link :to="{path: `/gallery/${photo.id}`}">
-            <nuxt-img :src="`/images/${photo.filename}.jpg`" format="webp" />
+            <nuxt-img :src="`/images/${photo.filename}.jpg`" format="webp" sizes="sm:100vw md:50vw lg:400px" alt="photo joueurs"/>
           </router-link>
         </div>
       </div>
