@@ -2,6 +2,21 @@
   {
     "annee2021" : [
       {
+        "name" : "Plateau Six-fours - 04/12",
+        "photos" : [
+          {
+            "id": 48,
+            "filename": "img48",
+            "tag": 2021
+          },
+          {
+            "id": 49,
+            "filename": "img49",
+            "tag": 2021
+          }
+        ]
+      },
+      {
         "name" : "Plateau Bon rencontre - 13/11",
         "photos" : [
           {
