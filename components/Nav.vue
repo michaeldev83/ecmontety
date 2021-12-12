@@ -9,6 +9,10 @@
         <h2>{{ page }}</h2>
       </nuxt-link>
       <span>|</span>
+      <nuxt-link to="/video">
+        <h2>{{ video }}</h2>
+      </nuxt-link>
+      <span>|</span>
       <nuxt-link to="/newsletters">
         <h2>{{ page1 }}</h2>
       </nuxt-link>
@@ -25,7 +29,8 @@ export default {
       titreMenu: 'Actualités',
       page: 'Galerie',
       page1: 'Newsletter',
-      info: 'Infos parents'
+      info: 'Infos parents',
+      video: 'Videos'
     }
   }
 }
