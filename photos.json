@@ -2,6 +2,16 @@
   {
     "annee2021" : [
       {
+        "name" : "Plateau la Cadière - 11/12",
+        "photos" : [
+          {
+            "id" : 50,
+            "filename" : "img50",
+            "tag" : 2021
+          }
+        ]
+      },
+      {
         "name" : "Plateau Six-fours - 04/12",
         "photos" : [
           {
