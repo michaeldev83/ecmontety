@@ -8,7 +8,7 @@ Slug: "Plateau la Cadière"
 Bonjour à tous,
 
 De nouvelles images ont été ajoutées dans la galerie. <br>
-Ils ont étaient performant comme d'habitube avec 5 matchs gagnés et un null sur 6 matchs joués. 👏👏
+Ils ont été performant comme d'habitube avec 5 matchs gagnés et un nul sur 6 matchs joués. 👏👏
 
 <nuxt-link to="/gallery">
 

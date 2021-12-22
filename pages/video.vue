@@ -6,10 +6,8 @@
         <div v-for="(video,index) in videos.annee2021" :key="index">
           <h3>{{ video.name }}</h3>
           <div class="lecteur">
-            <div class="panel" v-for="(vid, index) in video.video" :key="index">
+            <div v-for="(vid, indexVideo) in video.video" :key="indexVideo" class="panel">
               <iframe
-                width="560"
-                height="315"
                 :src="vid.url"
                 :title="vid.name"
                 frameborder="0"
@@ -51,7 +49,7 @@ export default {
   padding: 10px 20px 20px;
 }
 .video h3 {
-  padding: 10px 0 0;
+  padding: 10px 0 20px;
   text-align: center;
 }
 .lecteur {
