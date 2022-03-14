@@ -1,5 +1,19 @@
 <template>
   <div class="mainGallery">
+    <h2>2022</h2>
+    <div>
+      <div v-for="(dossier, index) in photos.annee2022" :key="index">
+        <h3>{{ dossier.name }}</h3>
+        <div class="gallery">
+          <div v-for="photo in dossier.photos" :key="photo.id" class="gallery-panel">
+            <router-link :to="{path: `/gallery/${photo.id}`}">
+              <nuxt-img :src="`/images/${photo.filename}.jpg`" format="webp" sizes="sm:100vw md:50vw lg:400px" alt="photo joueurs" />
+            </router-link>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
     <h2>2021</h2>
     <div>
       <div v-for="(dossier, index) in photos.annee2021" :key="index">

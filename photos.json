@@ -1,5 +1,22 @@
 
   {
+    "annee2022" : [
+      {
+        "name" : "Plateau la Farlède - 12/03 " ,
+        "photos" : [
+          {
+            "id" : 52,
+            "filename" : "img52",
+            "tag" : 2022
+          },
+          {
+            "id" : 53,
+            "filename" : "img53",
+            "tag" : 2022
+          }
+        ]
+      }
+    ],
     "annee2021" : [
       {
         "name" : "Plateau la Cadière - 11/12",
