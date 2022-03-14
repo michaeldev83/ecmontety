@@ -4,39 +4,17 @@
       Retour
     </nuxt-link>
     <div class="lightbox">
-      <nuxt-img :src="`/images/${galerie.filename}.jpg`" />
+      <nuxt-img :src="`/images/img${id}.jpg`" />
     </div>
   </div>
 </template>
 
 <script>
-import photos from '@/photos.json'
 
 export default {
   data () {
     return {
-      photos,
-      galerie: ''
-    }
-  },
-  created () {
-    this.photo()
-  },
-  methods: {
-    photo () {
-      for (const key in this.photos) {
-        for (let i = 0; i < this.photos[key].length; i++) {
-          for (let p = 0; p < this.photos[key][i].photos.length; p++) {
-            if (this.photos[key][i].photos[p].id === Number(this.$route.params.id)) {
-              this.galerie = {
-                id: this.photos[key][i].photos[p].id,
-                filename: this.photos[key][i].photos[p].filename,
-                tag: this.photos[key][i].photos[p].tag
-              }
-            }
-          }
-        }
-      }
+      id: this.$route.params.id
     }
   }
 }
