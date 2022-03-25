@@ -4,7 +4,8 @@
       Retour
     </nuxt-link>
     <div class="lightbox">
-      <nuxt-img :src="`/images/img${id}.jpg`" />
+      <nuxt-img v-if="id < 10" :src="`/images/img0${id}.jpg`" />
+      <nuxt-img v-else :src="`/images/img${id}.jpg`" />
     </div>
   </div>
 </template>
