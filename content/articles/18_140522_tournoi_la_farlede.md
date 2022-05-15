@@ -17,6 +17,7 @@ Si vous n'y êtes pas, cliquez sur le bouton bleu qui se trouve sur l'article pr
 
 <nuxt-img src="/images_blog/tournoi_la_farlede_14_05_2022.png" format="webp" sizes="sm:290px lg:400px" alt="pannel de photo ajouté" />
 
+
 </nuxt-link>
 
 À bientôt sur le terrain.
