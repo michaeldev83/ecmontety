@@ -9,5 +9,5 @@ Bonjour à tous,
 
 C'est reparti pour une nouvelle année, nos petits (qui ne sont plus trop petits 😁 ) ont recommencé les entrainements.
 
-Bonne reprise à tous et ont se voient bientôt sur le terrain.
+Bonne reprise à tous et on se voit bientôt sur le terrain.
 👋
