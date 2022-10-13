@@ -7,7 +7,6 @@
         <li>David - <a href="tel:0675906522">06 75 90 65 22</a></li>
         <li>Fabien - <a href="tel:0646170478">06 46 17 04 78</a></li>
         <li>Cyril - <a href="tel:0614974758">06 14 97 47 58</a></li>
-        <li>Enis - <a href="tel:0661671564">06 61 67 15 64</a></li>
       </ul>
     </div>
     <span>© Etoile Claret Montety | créer par Michael B</span>

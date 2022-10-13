@@ -22,7 +22,7 @@ export default {
   },
   data () {
     return {
-      niveau: 'U9'
+      niveau: 'U10'
     }
   }
 }
