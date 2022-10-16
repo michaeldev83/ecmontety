@@ -1,0 +1,61 @@
+[
+  {
+    "date" : "Samedi 15 Octobre 2022",
+    "lieu" : "Stade Guy Moquet 3",
+    "matchs" : [
+      {
+        "equipe1" : "Et. Claret Montety 1",
+        "logo1" : "claretMontety",
+        "equipe2" : "Gardia C.2",
+        "logo2": "gardia",
+        "score1" : 0,
+        "score2" : 1
+      },
+      {
+        "equipe1" : "Et. Claret Montety 1",
+        "logo1" : "claretMontety",
+        "equipe2" : "Ollioules 1",
+        "logo2": "ollioules",
+        "score1" : 4,
+        "score2" : 0
+      }
+    ]
+  },
+  {
+    "date" : "Samedi 08 Octobre 2022",
+    "lieu" : "Stade Léo Lagrange 4",
+    "matchs" : [
+      {
+        "equipe1" : "Et. Claret Montety 1",
+        "logo1" : "claretMontety",
+        "equipe2" : "Carqueiranne La Crau 2",
+        "logo2": "carqueiranneLaCrau",
+        "score1" : 3,
+        "score2" : 0
+      },
+      {
+        "equipe1" : "Et. Claret Montety 1",
+        "logo1" : "claretMontety",
+        "equipe2" : "Asptt Toulon 1",
+        "logo2": "aspttToulon",
+        "score1" : 7,
+        "score2" : 0
+      }
+    ]
+  },
+  {
+    "date" : "Samedi 01 Octobre 2022",
+    "lieu" :" Stade des Lices",
+    "matchs" : [
+      {
+        "equipe1" : "Et. Claret Montety 1",
+        "logo1" : "claretMontety",
+        "equipe2" : "U.S La Cadière",
+        "logo2": "laCadiere",
+        "score1" : 4,
+        "score2" : 1
+      }
+    ]
+  }
+  
+]
