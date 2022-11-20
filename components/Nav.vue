@@ -5,21 +5,9 @@
         <h2>{{ titreMenu }}</h2>
       </nuxt-link>
       <span>|</span>
-      <div class="dropdown">
+      <nuxt-link to="/championnat">
         <h2>{{ championnat }}</h2>
-        <ul>
-          <li>
-            <nuxt-link to="/championnat1">
-              Equipe1
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/championnat2">
-              Equipe2
-            </nuxt-link>
-          </li>
-        </ul>
-      </div>
+      </nuxt-link>
       <span>|</span>
       <nuxt-link to="/gallery">
         <h2>{{ page }}</h2>
@@ -82,7 +70,7 @@ nav a{
   width: 100px;
 }
 
-.dropdown ul{
+.menuSelected{
   display: none;
   background-color: #333;
   color: #fff;
@@ -108,6 +96,12 @@ nav a{
 }
 .dropdown:hover > ul {
   display: block;
+}
+.block {
+  display:block;
+}
+.none {
+  display: none;
 }
 
 </style>
