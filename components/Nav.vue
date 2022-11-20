@@ -9,9 +9,21 @@
         <h2>{{ page }}</h2>
       </nuxt-link>
       <span>|</span>
-      <nuxt-link to="/championnat">
+      <div class="dropdown">
         <h2>{{ championnat }}</h2>
-      </nuxt-link>
+        <ul>
+          <li>
+            <nuxt-link to="/championnat1">
+              Equipe1
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/championnat2">
+              Equipe2
+            </nuxt-link>
+          </li>
+        </ul>
+      </div>
       <span>|</span>
       <nuxt-link to="/newsletters">
         <h2>{{ page1 }}</h2>
@@ -65,4 +77,37 @@ nav h2, nav span{
 nav a{
   text-decoration: none;
 }
+.dropdown {
+  position: relative;
+  width: 100px;
+}
+
+.dropdown ul{
+  display: none;
+  background-color: #333;
+  color: #fff;
+  padding: 0 10px;
+}
+.dropdown li{
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+.dropdown li a {
+  text-decoration: none;
+  color: #fff;
+}
+ .dropdown li a:hover {
+  color: #999;
+  transition: 0.2s ease-in-out;
+}
+.dropdown:hover {
+  top:29px;
+}
+.dropdown:hover > h2 {
+  padding-bottom: 10px;
+}
+.dropdown:hover > ul {
+  display: block;
+}
+
 </style>

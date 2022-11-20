@@ -15,8 +15,11 @@
               <p v-if="match.score1 > match.score2">
                 <span class="green"> {{ match.score1 }}</span> - <span> {{ match.score2 }}</span>
               </p>
-              <p v-else>
+              <p v-else-if="match.score2 > match.score1">
                 <span> {{ match.score1 }}</span> - <span class="green"> {{ match.score2 }}</span>
+              </p>
+              <p v-else>
+                <span> {{ match.score1 }}</span> - <span> {{ match.score2 }}</span>
               </p>
             </div>
             <div class="equipe">
@@ -32,7 +35,7 @@
 </template>
 
 <script>
-import rencontres from '@/pages/championnat/rencontres.json'
+import rencontres from '@/pages/championnat1/rencontres.json'
 
 export default {
   name: 'Rencontres',
@@ -99,6 +102,7 @@ hr {
 }
 .equipe img {
   max-width:50px;
+  height:50px;
   max-height: 50px;
   margin-bottom: 10px;
 }

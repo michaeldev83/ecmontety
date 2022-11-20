@@ -1,0 +1,56 @@
+[
+  {
+    "date" : "Samedi 19 Novembre 2022",
+    "lieu" : "Stade Jacques Astier",
+    "matchs" : [
+      {
+        "equipe1" : "Et. Claret Montety 2",
+        "logo1" : "claretMontety",
+        "equipe2" : "Le Gapeau 2",
+        "logo2": "LeGapeau",
+        "score1" : 0,
+        "score2" : 5
+      },
+      {
+        "equipe1" : "Et. Claret Montety 2",
+        "logo1" : "claretMontety",
+        "equipe2" : "Berthe 4",
+        "logo2": "berthe",
+        "score1" : 4,
+        "score2" : 2
+      }
+    ]
+  },
+  {
+    "date" : "Samedi 12 Novembre 2022",
+    "lieu" : "Stade la Cadière",
+    "matchs" : [
+      {
+        "equipe1" : "Et. Claret Montety 2",
+        "logo1" : "claretMontety",
+        "equipe2" : "Asptt Toulon 2",
+        "logo2": "aspttToulon",
+        "score1" : 0,
+        "score2" : 0
+      },
+      {
+        "equipe1" : "Et. Claret Montety 2",
+        "logo1" : "claretMontety",
+        "equipe2" : "St Mandrier 2",
+        "logo2": "stMandrier",
+        "score1" : 4,
+        "score2" : 2
+      },
+      {
+        "equipe1" : "Et. Claret Montety 2",
+        "logo1" : "claretMontety",
+        "equipe2" : "la Cadiere 2",
+        "logo2": "laCadiere",
+        "score1" : 1,
+        "score2" : 0
+        
+      }
+    ]
+  }
+  
+]

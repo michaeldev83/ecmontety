@@ -1,5 +1,27 @@
 [
   {
+    "date" : "Samedi 19 Novembre 2022",
+    "lieu" : "Stade des Lices",
+    "matchs" : [
+      {
+        "equipe1" : "Et. Claret Montety 1",
+        "logo1" : "claretMontety",
+        "equipe2" : "La Cadière",
+        "logo2": "laCadiere",
+        "score1" : 1,
+        "score2" : 1
+      },
+      {
+        "equipe1" : "Et. Claret Montety 1",
+        "logo1" : "claretMontety",
+        "equipe2" : "A.S St Cyr",
+        "logo2": "stCyr",
+        "score1" : 2,
+        "score2" : 0
+      }
+    ]
+  },
+  {
     "date" : "Samedi 15 Octobre 2022",
     "lieu" : "Stade Guy Moquet 3",
     "matchs" : [
