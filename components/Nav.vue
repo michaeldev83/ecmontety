@@ -5,10 +5,6 @@
         <h2>{{ titreMenu }}</h2>
       </nuxt-link>
       <span>|</span>
-      <nuxt-link to="/gallery">
-        <h2>{{ page }}</h2>
-      </nuxt-link>
-      <span>|</span>
       <div class="dropdown">
         <h2>{{ championnat }}</h2>
         <ul>
@@ -24,6 +20,10 @@
           </li>
         </ul>
       </div>
+      <span>|</span>
+      <nuxt-link to="/gallery">
+        <h2>{{ page }}</h2>
+      </nuxt-link>
       <span>|</span>
       <nuxt-link to="/newsletters">
         <h2>{{ page1 }}</h2>
@@ -43,7 +43,7 @@ export default {
       page1: 'Newsletter',
       info: 'Infos parents',
       video: 'Videos',
-      championnat: 'Championnat'
+      championnat: 'Championnats'
     }
   }
 }
